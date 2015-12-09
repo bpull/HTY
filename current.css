@@ -8,7 +8,7 @@ body{
 .header	{
 			position: fixed;
 		width: 100%;
-		height: 100%;
+		height: 95%;
 		left: 0;
 		top: 0;
 		right:0;
@@ -16,23 +16,46 @@ body{
 		background: url(pics/bancroft.jpg) no-repeat;
 		background-size: 100% 100%;
 		margin-bottom:100px;
+		
 		}
 
 .second	{
 			
-		height: 110%;
+		height: 95%;
 		width: 100%;
 		position:absolute;
-		top:100%;
-		background-color: white;
+		top:95%;
+		background-color: #7680FF;
 		}
 		
 .third	{
-		height: 100%;
+		height: 95%;
 		width: 100%;
 		position:absolute;
-		top:210%;
+		top:190%;
 		background-color: blue;
+		}
+		
+.overlay {
+		background:transparent; 
+		position:relative; 
+		width:100%;
+   height:100%; /* your iframe height */
+   top:190%;  /* your iframe height */
+  margin-top:-100%;  /* your iframe height */
+}
+
+#googlemap iframe {
+					pointer-events:none;
+				}
+		
+.fourth	{
+		height: 95%;
+		width: 100%;
+		position:absolute;
+		top:280%;
+		background-color: #7680FF;
+		
 		}
 		
 .headpic	{
@@ -50,6 +73,8 @@ body{
 				top:100%;
 				width:100%;
 				height:100%;
+				background-size: 100% 100%;
+				margin-bottom:100px;
 			}
 			
 .image { 
@@ -61,9 +86,9 @@ body{
 .nav-bar		{
 							position: fixed;
 							left: 0px;
-							bottom: 0px;
+							top: 0px;
 							width: 100%;
-							height: 75px;
+							height: 50px;
 
 							color: white;
 							text-align: center;
@@ -78,7 +103,9 @@ body{
 .nav-bar a	{
 				margin-left: 2em;
 				margin-right: 2em;
-				padding-top: 2em;
+				
+				top:5%:w-resize;
+				
 				
 				text-decoration: none;
 				color: white;
