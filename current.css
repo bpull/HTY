@@ -116,4 +116,11 @@ body
 				text-decoration: none;
 				color: white;
 			}
+span p 
+{
+	text-align:center;
+	position:relative;
+	top:30%;
+	color:#444444
+}
 
