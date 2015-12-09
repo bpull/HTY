@@ -101,14 +101,16 @@ body
 
 							background: black;
 							
-							z-index: 1000;
+						
 						}
 
 .nav-bar a	{
 				margin-left: 2em;
 				margin-right: 2em;
+				position:relative;
+				top:30%;
 				
-				top:5%:w-resize;
+			
 				
 				
 				text-decoration: none;
