@@ -207,6 +207,17 @@ span:hover
 	color: white;
 }
 
+.teampics
+{
+margin-left:auto;
+margin-right:auto;
+padding:15px;
+max-width:200px;
+height:25%;
+width:15%;
+position:relative;
+}
+
 .chevron
 {
 	position:absolute;
