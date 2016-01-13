@@ -65,13 +65,14 @@ body
 .regbutton:visited
 {
  text-decoration:none;
- decoration:none;
+ border:none;
 }
 
 .regbutton:hover
 {
 	background-color:white;
 	color:#022161;	
+	border:none;
 }
 		
 .front-chev h1,h2,h3 
