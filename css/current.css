@@ -112,6 +112,7 @@ body
 .front-container h1
 {
 	font-weight:900;
+	color: red;
 	font-size:300%;
 	
 }
