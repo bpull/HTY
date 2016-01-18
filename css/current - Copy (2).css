@@ -53,27 +53,7 @@ body
 	text-decoration:none;
 }
 		
-.regbutton
-{
-	width:225px;
-	height:25px;
-	background-color:#022161;
-	color:white;
-	border:none;
-}
 
-.regbutton:visited
-{
- text-decoration:none;
- border:none;
-}
-
-.regbutton:hover
-{
-	background-color:white;
-	color:#022161;	
-	border:none;
-}
 		
 .front-chev h1,h2,h3 
 {
@@ -91,40 +71,8 @@ body
 	max-width:1000px;
 	text-align:center;
 	padding-top:300px;
-	font-family:Kanit;
-	
-		  /*code used from css site wc3 schools */
-		animation: fadein 3s;
-		-moz-animation: fadein 3s; /* Firefox */
-		-webkit-animation: fadein 3s; /* Safari and Chrome */
-		-o-animation: fadein 3s; /* Opera */
+	font-family:elephant;
 }
-
-@keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-moz-keyframes fadein { /* Firefox */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-webkit-keyframes fadein { /* Safari and Chrome */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-
 
 .faq-container
 {
@@ -134,7 +82,7 @@ body
 	text-align:center;
 	padding-top:40px;
 	color:white;
-	font-family:Kanit;
+	font-family:elephant;
 	text-decoration:none;
 }
 
@@ -145,6 +93,7 @@ body
 {
 	font-weight:900;
 	font-size:300%;
+	
 }
 
 .faq-container h1
@@ -189,32 +138,19 @@ body
 	background: #444444;							
 }
 
-.nav {
-	z-index:10;
-	position:fixed;
-	width:100%;
-	text-align: center;
-	font-size: 24px;
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	background-color: #444444;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	z-index: -1;
 }
 
-.nav li {
-	display: inline;
+li {
+    float: left;
+	z-index: -1;
 }
-
-.nav a {
-	text-decoration: none;
-	display: inline-block;
-	padding-top: 10px;
-	padding-bottom: 15px;
-	padding-right: 20px;
-	padding-left: 20px;
-}
-
-
 
 li a {
     display: block;
@@ -304,7 +240,6 @@ span:hover
  border:5px solid silver;
 
 }
-
 .circular
 {
 	width:200px;
