@@ -9,6 +9,71 @@ body
 	font-weight: 300;
 }
 
+.succeed
+{
+	width:84%;
+	top:15%;
+	height:60%;
+	color:red;
+}
+
+.asdf1 
+{
+	position: absolute;
+	width: 28%;
+	height: 60%;
+	margin-left:0;
+	margin-right:0;
+	top:20%;
+	text-align: center;
+	/*background-color: #022161;*/
+	color: white;
+	font-size:20pt;
+	border-right: thin solid white;
+	padding-right:10px;
+}
+
+.asdf1 h4
+{
+		font-size:30pt;
+}
+.asdf2
+{
+	position: absolute;
+	width: 28%;
+	height: 60%;
+	margin-left:0;
+	margin-right:0;
+	top:20%;
+	text-align: center;
+	/*background-color: #022161;*/
+	color: white;
+	font-size:20pt;
+	border-right: thin solid white;
+}
+.asdf2 h4
+{
+		font-size:30pt;
+}
+.asdf3
+{
+	position: absolute;
+	width: 28%;
+	height: 60%;
+	margin-left:0;
+	margin-right:0;
+	top:20%;
+	text-align: center;
+	background-color: #022161;
+	color:white;
+	font-size:20pt;
+	border-left: thin solid white;
+	padding-left: 10px;
+}
+.asdf3 h4
+{
+		font-size:30pt;
+}
 .header
 {	
 	width: 100%;
@@ -30,10 +95,10 @@ body
 	font-family:Kanit;
 	
    /*code used from css site wc3 schools */
-	animation: fadein 3s;
-	-moz-animation: fadein 3s; /* Firefox */
-	-webkit-animation: fadein 3s; /* Safari and Chrome */
-	-o-animation: fadein 3s; /* Opera */
+	animation: fadein 5s;
+	-moz-animation: fadein 5s; /* Firefox */
+	-webkit-animation: fadein 5s; /* Safari and Chrome */
+	-o-animation: fadein 5s; /* Opera */
 }
 
 .front-container h2
@@ -198,24 +263,6 @@ li a:hover {
     background-color: #111;
 }		
 
-span
-{
-	border:5px solid #444444;
-
-}
-
-span p 
-{
-	text-align:center;
-	position:relative;
-	top:30%;
-	color:#444444
-}
-
-span:hover
-{
-	border:5px solid silver;
-}
 
 .overlay
 {
