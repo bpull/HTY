@@ -11,7 +11,8 @@ body
 
 .succeed
 {
-	width:90%;
+	width:100%;
+	margin:0 auto;
 	top:15%;
 	height:60%;
 	color:red;
@@ -20,14 +21,13 @@ body
 .asdf1 
 {
 	float:left;
-	width: 30%;
+	width: 33%;
 	top:20%;
 	text-align: center;
 	color: white;
 	font-size:20pt;
 	border-right: thin solid white;
-	margin-left:3.6%;
-	padding:10px;
+	padding:5px;
 	height:380px
 }
 
@@ -35,31 +35,34 @@ body
 {
 		font-size:30pt;
 }
+
 .asdf2
 {
-	display: inline-block;
-	width: 30%;
+	display:inline-block;
+	width: 31%;
 	top:20%;
 	text-align: center;
 	color: white;
 	font-size:20pt;
-	padding:10px;
+	padding:5px;
 	height:380px;
 }
+
 .asdf2 h4
 {
 		font-size:30pt;
 }
+
 .asdf3
 {
 	float:right;
-	width: 30%;
+	width: 32%;
 	top:20%;
 	text-align: center;
 	color:white;
 	font-size:20pt;
 	border-left: thin solid white;
-	padding:10px;
+	padding:5px;
 	height:380px;
 }
 .asdf3 h4
