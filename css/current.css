@@ -178,7 +178,7 @@ body
 
 .third
 {
-	height: 1000px;
+	height: 500px;
 	width: 100%;
 	position:absolute;
 	top:1560px;
@@ -186,6 +186,11 @@ body
 	color:black;
 }
 		
+.third1
+{
+	position: absolute;
+	top:1516px;
+}
 .third h3
 {
 	padding-top: 30px;
@@ -198,7 +203,7 @@ body
 	height: 95%;
 	width: 100%;
 	position:absolute;
-	top:315%;
+	top:2060px;
 	background-color:  #022161;	
 }		
 
@@ -344,4 +349,59 @@ position:relative;
     to {
         opacity:1;
     }
+}
+
+
+
+
+.asdfg1 
+{
+	float:left;
+	width: 33%;
+	top:20%;
+	text-align: center;
+	color: white;
+	font-size:20pt;
+	border-right: thin solid white;
+	padding:5px;
+	height:550px
+}
+
+.asdfg1 h4
+{
+		font-size:30pt;
+}
+
+.asdfg2
+{
+	display:inline-block;
+	width: 31%;
+	top:20%;
+	text-align: center;
+	color: white;
+	font-size:20pt;
+	padding:5px;
+	height:550px;
+}
+
+.asdfg2 h4
+{
+		font-size:30pt;
+}
+
+.asdfg3
+{
+	float:right;
+	width: 32%;
+	top:20%;
+	text-align: center;
+	color:white;
+	font-size:20pt;
+	border-left: thin solid white;
+	padding:5px;
+	height:550px;
+}
+.asdfg3 h4
+{
+		font-size:30pt;
 }
