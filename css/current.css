@@ -405,3 +405,38 @@ position:relative;
 {
 		font-size:30pt;
 }
+
+
+.asdfgh1 
+{
+	float:left;
+	width: 50%;
+	top:20%;
+	text-align: center;
+	color: black;
+	font-size:18pt;
+	border-right: thin solid black;
+	padding:5px;
+	height:400px
+}
+.asdfgh2
+{
+	display:inline-block;
+	width: 33%;
+	top:20%;
+	text-align: center;
+	color: black;
+	font-size:18pt;
+	
+	padding:5px;
+	height:400px;
+
+}
+.asdfgh1 h4
+{
+		font-size:30pt;
+}
+.asdfgh2 h4
+{
+		font-size:30pt;
+}
