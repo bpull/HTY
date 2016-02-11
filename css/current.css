@@ -200,7 +200,7 @@ body
 		
 .fourth	
 {
-	height: 95%;
+	height: 800px;
 	width: 100%;
 	position:absolute;
 	top:2060px;
@@ -212,6 +212,23 @@ body
 	padding-top: 30px;
 	text-align:center;
 	color:white;
+}
+
+.fifth
+{
+	height: 300px;
+	width: 100%;
+	position:absolute;
+	top:2860px;
+	background-color:  white;
+	text-align: center;
+}		
+
+.fifth h3
+{
+	padding-top: 30px;
+	text-align:center;
+	color:rgb(44, 44, 44);
 }
 
 .image 
@@ -358,7 +375,7 @@ position:relative;
 {
 	float:left;
 	width: 33%;
-	top:20%;
+	top:18%;
 	text-align: center;
 	color: white;
 	font-size:20pt;
@@ -376,7 +393,7 @@ position:relative;
 {
 	display:inline-block;
 	width: 31%;
-	top:20%;
+	top:18%;
 	text-align: center;
 	color: white;
 	font-size:20pt;
@@ -393,7 +410,7 @@ position:relative;
 {
 	float:right;
 	width: 32%;
-	top:20%;
+	top:18%;
 	text-align: center;
 	color:white;
 	font-size:20pt;
