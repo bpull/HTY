@@ -20,14 +20,12 @@ body
 
 .asdf1 
 {
-	float:left;
-	width: 33%;
+	display:inline-block;
+	width: 30%;
 	top:20%;
 	text-align: center;
 	color: white;
 	font-size:20pt;
-	border-right: thin solid white;
-	padding:5px;
 	height:380px
 }
 
@@ -39,12 +37,11 @@ body
 .asdf2
 {
 	display:inline-block;
-	width: 31%;
+	width: 30%;
 	top:20%;
 	text-align: center;
 	color: white;
 	font-size:20pt;
-	padding:5px;
 	height:380px;
 }
 
@@ -55,14 +52,12 @@ body
 
 .asdf3
 {
-	float:right;
-	width: 32%;
+	display:inline-block;
+	width: 30%;
 	top:20%;
 	text-align: center;
 	color:white;
 	font-size:20pt;
-	border-left: thin solid white;
-	padding:5px;
 	height:380px;
 }
 .asdf3 h4
@@ -432,14 +427,12 @@ position:relative;
 	text-align: center;
 	color: black;
 	font-size:18pt;
-	border-right: thin solid black;
-	padding:5px;
 	height:400px
 }
 .asdfgh2
 {
 	display:inline-block;
-	width: 33%;
+	width: 50%;
 	top:20%;
 	text-align: center;
 	color: black;
